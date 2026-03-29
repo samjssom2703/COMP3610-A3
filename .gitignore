@@ -1,0 +1,32 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# secrets - for API keys
+.env
+*.env
+
+# assignment-generated local artifacts
+data/
+chroma_db/
+outputs/
+
+# large files and databases
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
