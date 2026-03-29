@@ -18,6 +18,7 @@ env/
 data/
 chroma_db/
 outputs/
+hadoop/
 
 # large files and databases
 *.parquet
