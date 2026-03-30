@@ -1,25 +1,26 @@
 # core data and Spark imports
-pyspark==4.0.2
+pyspark==4.1.1
 py4j==0.10.9.9
-pandas==2.3.0
-numpy==1.26.4
-pyarrow==20.0.0
+pandas==3.0.1
+numpy==2.4.4
+pyarrow==23.0.1
 
-matplotlib==3.10.0
+matplotlib==3.10.8
 seaborn==0.13.2
 
 # LLM and RAG stack imports
-openai==1.76.0
-python-dotenv==1.1.0
-langchain==0.3.24
-langchain-community==0.3.23
-langchain-text-splitters==0.3.8
-chromadb==0.5.5
-sentence-transformers==4.1.0
-huggingface-hub==0.31.1
-transformers==4.51.3
-torch==2.7.0
+openai==2.30.0
+python-dotenv==1.2.2
+langchain==1.2.13
+langchain-community==0.4.1
+langchain-text-splitters==1.1.1
+chromadb==1.5.5
+sentence-transformers==5.3.0
+huggingface-hub==1.8.0
+transformers==5.4.0
+torch==2.11.0
+pypdf==6.9.2
 
 # other utilities
-requests==2.32.3
-tqdm==4.67.1
+requests==2.33.0
+tqdm==4.67.3
